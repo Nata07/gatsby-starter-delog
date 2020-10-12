@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /
+path: /benjamin-lindo
 date: 2020-10-12T05:12:45.616Z
 title: Benjamin linfoo
 metaDescription: >-
