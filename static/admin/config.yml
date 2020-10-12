@@ -1,7 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   # change repo to your git repository url
-  repo: https://github.com/Nata07/casadomago
+  # repo: https://github.com/Nata07/casadomago
 
 media_folder: static/assets
 public_folder: /assets
