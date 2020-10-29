@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import PostLink from "../components/post-link";
 import HeroHeader from "../components/heroHeader";
-
+ 
 const IndexPage = ({
   data: {
     site,
@@ -22,6 +22,21 @@ const IndexPage = ({
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
       <HeroHeader />
+
+      <div>
+        <h2>Entre no nosso grupo do Whatsapp &darr;</h2> 
+        <div style={{ display: "flex", justifyContent: "flex-start" }}>
+          <a href="https://chat.whatsapp.com/HjRIxrTaRdNJI30XHpMPEZ?fbclid=IwAR3qwsvguM9HPAa9wfiOldCo9Ch6Sg5Z6wW4R4EmPjwswvuRtS4VyUIOUH4"
+            target="_blank"
+            type="submit"
+            className="button -primary"
+            style={{ marginRight: 0, fontWeight: '700', textAlign: 'center', width: '35%', marginBottom: '15px' }}
+          >
+            Quero fazer parte! 
+          </a>    
+        </div>
+      </div>
+
       <h2>Blog Posts &darr;</h2>
       <div className="grids">{Posts}</div>
     </Layout>

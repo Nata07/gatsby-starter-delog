@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticQuery, graphql, Link } from "gatsby";
+import { StaticQuery, graphql } from "gatsby";
 export default () => (
   <StaticQuery
     query={graphql`
@@ -23,6 +23,8 @@ export default () => (
             __html: data.site.siteMetadata.home.description,
           }}
         />
+
+        
         {/* <Link to="/contact" className="button -primary">
           Contato &rarr;
         </Link> */}
